@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    background-image: url(https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+    width: 400px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #128c7e;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 1em;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.logo {
+    float: left;
+    cursor: pointer;
+}
+.fa-arrow-left {
+    color: #fff;
+}
+.image-contact {
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fff5;
+    vertical-align: middle;
+}
+
+header > span {
+    float: right;
+}
+
+.icon-appel {
+    color: #fff;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.content {
+    -moz-overflow: none;
+}
+.content {
+    padding: 0 5px;
+    height: 600px;
+    overflow: auto;
+}
+.content ul {
+    list-style: none;
+    direction: rtl;
+}
+
+.content ul li {
+
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: #dcf8c6;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 5px 5px;
+    -webkit-border-radius: 5px 0 5px 5px;
+    -moz-border-radius: 5px 0 5px 5px;
+    -ms-border-radius: 5px 0 5px 5px;
+    -o-border-radius: 5px 0 5px 5px;
+}
+
+
+
+.content ul li p {/*
+    min-height: 32px;
+    line-height: 32px;*/
+}
+
+.content ul li span {
+    display: block;
+    font-size: 0.7em;
+    line-height: 0.7em;
+}
+.content ul li img {
+    width: 15px;
+
+}
+
+.send {
+    padding: 3px 5px;
+    background-color: transparent;
+}
+
+.send input {
+    border: 1px solid #ddd;
+    line-height: 40px;
+    font-size: 1.2em;
+    padding: 0 15px;
+    width: 88%;
+    margin-right: 1%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.send button {
+    background-color: #128c7e;
+    color: #fff;
+    border: none;
+    font-size: 1.2em;
+    padding: 9px;
+    width: 11%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
