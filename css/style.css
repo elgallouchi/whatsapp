@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-image: url(https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+    background-image: url(../img/fond-whatsapp.png);
     width: 400px;
     margin: 0 auto;
 }
@@ -128,4 +128,7 @@ header > span {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+#button {
+    cursor: pointer;
 }
